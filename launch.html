@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <title>THAS SMART Demo - Launch</title>
+  <!-- SMART JS client：幫我們處理 OAuth2 / FHIR 呼叫 -->
+  <script src="https://cdn.jsdelivr.net/npm/fhirclient/build/fhir-client.js"></script>
+</head>
+<body>
+  <p>正在啟動 SMART 授權流程，請稍候...</p>
+
+  <script>
+    // 這個頁面會被 THAS 用特殊參數（iss, launch）打開
+    // 我們只要呼叫 authorize，fhirclient 會幫我們處理：
+    // 1. 找到 THAS 的 authorize / token endpoint
+    // 2. 把使用者導去登入 / 授權
+    // 3. 授權完跳回 redirectUri（下面的 index.html）
+
+    FHIR.oauth2.authorize({
+      // 之後要改成你在 THAS 註冊 App 拿到的 client_id
+      clientId: "YOUR_CLIENT_ID_FROM_THAS",
+
+      // 想要的權限：先用最基本的
+      scope: "launch openid fhirUser patient/*.read",
+
+      // 授權成功後要跳轉的相對路徑
+      redirectUri: "index.html"
+
+      // iss / launch 不用自己寫，fhirclient 會從網址裡自動讀取
+    });
+  </script>
+</body>
+</html>
