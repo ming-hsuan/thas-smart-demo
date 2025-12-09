@@ -9,10 +9,11 @@
 <p>正在導向 SMART 授權頁面…</p>
 
 <script>
-  // TODO：換成衛福部 SMART 沙盒給你的 clientId
-  const CLIENT_ID = "https://ming-hsuan.github.io/thas-smart-demo/index.html";
+  // 1️⃣ 這裡要填「THAS 給你的 clientId」，不是網址
+  //    例如：const CLIENT_ID = "thas-smart-demo-001";
+  const CLIENT_ID = "thas-smart-demo-001";
 
-  // TODO：換成你 GitHub Pages 上的 index.html 完整網址
+  // 2️⃣ 這裡才是 redirect URI，也就是 index.html 的網址
   const REDIRECT_URI = "https://ming-hsuan.github.io/thas-smart-demo/index.html";
 
   FHIR.oauth2.authorize({
