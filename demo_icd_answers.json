@@ -1,0 +1,202 @@
+{
+  "demo-000001": {
+    "assistant": "C78.02,J18.9,Z85.038",
+    "dis_preview": "1. Left lung tumor， left lower lobe， suspect metastasis， s/p operation on 2016-0"
+  },
+  "demo-000002": {
+    "assistant": "C18.7,C77.2,E87.6,E83.39,E83.42,G20",
+    "dis_preview": "1. Adenocarcinoma of sigmoid colon， pT3N1(1/18)M0， stage IIIb s/p Laparoscopic a"
+  },
+  "demo-000003": {
+    "assistant": "R91.8,K25.9,K26.9,M10.00,T85.628A,Y84.8",
+    "dis_preview": "1. Right lower lung nodule(frozen: benign origin) s/p Thoracoscopic wedge resect"
+  },
+  "demo-000004": {
+    "assistant": "J18.9,E11.22,N18.4,Z95.5,B37.49,B95.2,I25.10,I25.2,K27.4,I50.9,E87.70,N17.9",
+    "dis_preview": "1. Urinary tract infection(9/23 U/C：Candida glabrata，10/3 U/C：Enterococcus faeci"
+  },
+  "demo-000005": {
+    "assistant": "N40.0,I10",
+    "dis_preview": "Benign prostatic hyperplasia， s/p Transurethral resection of prostate gl and ，紅光"
+  },
+  "demo-000006": {
+    "assistant": "T54.1X1A,T28.7XXA,E11.9,K74.60,X58.XXXA",
+    "dis_preview": "Corrosive injury of upper-intestinal tractType 2 diabetes mellituscirrhosis of l"
+  },
+  "demo-000007": {
+    "assistant": "J10.1,E86.0",
+    "dis_preview": "influenza B infection with dehydration"
+  },
+  "demo-000008": {
+    "assistant": "K56.49,J02.9",
+    "dis_preview": "1. Abdominal pain， fecal material impaction related 2. Fever， acute pharyngitis"
+  },
+  "demo-000009": {
+    "assistant": "Z51.12,C50.811,C77.3",
+    "dis_preview": "Right breast cancer with lymph node metastasis post neoadjuvant chemotherapy. po"
+  },
+  "demo-000010": {
+    "assistant": "I48.3,C18.4,C77.2,C78.00,C78.7",
+    "dis_preview": "1. CTI dependent counterclockwise atrial flutter， s/p successful EPS + RF ablati"
+  },
+  "demo-000011": {
+    "assistant": "G40.309,J18.9,E87.1,E87.2,G80.9,N25.0,F79",
+    "dis_preview": "1. Myoclonus suspected progress myoclonic epilepsy 2. Hyponatreamia 3. Metabolic"
+  },
+  "demo-000012": {
+    "assistant": "C71.9",
+    "dis_preview": "1. Left brain tumor (glioblastoma multiforme， WHO grade 4) S/P Craniotomy for re"
+  },
+  "demo-000013": {
+    "assistant": "J96.92,J44.9,K21.0,I10,I48.0,K25.9,Z86.79",
+    "dis_preview": "1. Hypercapnia respiratory failure 2. Cholangitis with CBD and IHD dilatation， c"
+  },
+  "demo-000014": {
+    "assistant": "T60.3X1A,F32.9,K21.0,M10.9",
+    "dis_preview": "1. Major depressive disorder 2. Glyphosate ingestion 3. Reflux esophagitis 4. Go"
+  },
+  "demo-000015": {
+    "assistant": "I47.2,I49.3",
+    "dis_preview": "1. idiopathic VT， RVOT origin. 2. VPC bigeminy."
+  },
+  "demo-000016": {
+    "assistant": "K80.00,E87.1,E87.6",
+    "dis_preview": "Gallbladder stone with acute cholecystitis s/p Laparoscopic cholecystectomy on 2"
+  },
+  "demo-000017": {
+    "assistant": "K94.09,C20,C77.2",
+    "dis_preview": "1. Rectal cancer s/p OP， with stoma prolapse s/p Revision of colostomy on 2019-0"
+  },
+  "demo-000018": {
+    "assistant": "B08.5,E86.9,K52.9,B37.0",
+    "dis_preview": "1. Herpangina with volume depletion 2. Acute gastroenterocolitis 3. Oral thrush"
+  },
+  "demo-000019": {
+    "assistant": "K40.90,N40.1",
+    "dis_preview": "1. Left inguinal hernia， direct type status post herniorrhaphy with mesh repair "
+  },
+  "demo-000020": {
+    "assistant": "K72.90,A04.5,A04.0,E87.1",
+    "dis_preview": "1. Infectious diarrhea， invasive type. -- Campylobacter spp. & Enteropathogenic "
+  },
+  "demo-000021": {
+    "assistant": "J14,D56.9",
+    "dis_preview": "# 1. Pneumonia， Haemophilus influenza infection # 2. Microcytic anemia， suspect "
+  },
+  "demo-000022": {
+    "assistant": "K25.5,I10,G30.9,F02.80,K65.9,K80.10,E88.09,E87.1,E87.6,N40.0,R41.0,M10.00",
+    "dis_preview": "1. Gastric ulcer perforation with peritonitis s/p Gastrorrhaphy + Feeding jejuno"
+  },
+  "demo-000023": {
+    "assistant": "J44.0,C34.12,E11.9,Z20.828",
+    "dis_preview": "1. COPD secondary infection ， (2020-06-10 SARS-CoV-2 RNA(Ribonucleic acid):negat"
+  },
+  "demo-000024": {
+    "assistant": "S06.5X0A,W19.XXXA,J96.00,J69.0,L30.9,B35.4,B35.1,K64.9,M81.0,I10",
+    "dis_preview": "1. Left subacute subdural hematoma s/p Craniectomy and evacuation of subdural he"
+  },
+  "demo-000025": {
+    "assistant": "J10.1,N39.0,H66.90,B95.5,B96.4,E87.0",
+    "dis_preview": "1. influenza virus type A infection 2. Urinary tract infection with E.coli & Pro"
+  },
+  "demo-000026": {
+    "assistant": "I50.9,I48.91,E87.70,E87.0,I12.9,N18.9,E11.22,E11.65",
+    "dis_preview": "1. Decompensated heart failure NYHA. IV. with acute pulmonary edema (4/29~)， pre"
+  },
+  "demo-000027": {
+    "assistant": "K61.3",
+    "dis_preview": "Perianal abscess， left lateral， intersphincteric type， s/p Debridement on 2015-0"
+  },
+  "demo-000028": {
+    "assistant": "D02.21,I10,E11.9",
+    "dis_preview": "Active problem: 1. Right middle lung nodule s/p thoracoscopic wedge resection of"
+  },
+  "demo-000029": {
+    "assistant": "P59.3",
+    "dis_preview": "Prolong jaundice，suspected breast milk related， for intensive phototherapy"
+  },
+  "demo-000030": {
+    "assistant": "P59.9",
+    "dis_preview": "# Neonatal jaundice， post photherapy 4/28~4/29"
+  },
+  "demo-000031": {
+    "assistant": "D69.3,E11.9,I10,N39.0,B96.20",
+    "dis_preview": "1. Immune thrombocytopenia 2. Type 2 DM 3. Hypertension 4. Urine tract infection"
+  },
+  "demo-000032": {
+    "assistant": "Z51.11,C91.01",
+    "dis_preview": "1. Acute lymphoblastic leukemia with E2A-PBX1， B lineage， diagnosed on 2018-03-2"
+  },
+  "demo-000033": {
+    "assistant": "J18.0,J98.01,J01.90,E86.0,E87.6",
+    "dis_preview": "# Bronchopneumonia with bronchospasm# Acute sinusitis# Dehydration# Hypokalemia"
+  },
+  "demo-000034": {
+    "assistant": "J34.2,J31.0,J35.2",
+    "dis_preview": "1. Deviated nasal septum and bilateral hypertrophic rhinitis， status post submuc"
+  },
+  "demo-000035": {
+    "assistant": "R78.81,B96.1,B95.2,I50.9,J81.0,I48.0,I25.5,J18.9,I25.10,Z95.5,I12.9,J96.90,N18.9,G30.9,F02.80,N17.9,Z86.73,E87.0,K92.2,B95.62,E87.2,E87.5,N39.0,D50.0",
+    "dis_preview": "1. Multiple organ failure， bacteremia related ， complicated with acute pulmonary"
+  },
+  "demo-000036": {
+    "assistant": "C78.6,C34.12,C78.2,J44.9,I10,M10.00",
+    "dis_preview": "1. Left upper lobe lung adenocarcinoma with pleural metasis， stage IVa.2. Ascite"
+  },
+  "demo-000037": {
+    "assistant": "C73,E04.9",
+    "dis_preview": "1. Right thyroid papillary microcarcinoma (pT1aNxMx) and nodular goiters s/p 3D "
+  },
+  "demo-000038": {
+    "assistant": "K35.80,R18.8,I10,E11.9",
+    "dis_preview": "1. Acute suppurative appendicitis with Turbid ascites s/p Laparoscopic appendect"
+  },
+  "demo-000039": {
+    "assistant": "C50.512,D24.1",
+    "dis_preview": "1. left breast cancer 2. right breast ductal adenoma Operation (2021-08-16): lef"
+  },
+  "demo-000040": {
+    "assistant": "R57.8,J18.9,K22.8,K22.0,K21.0,D50.0,G20",
+    "dis_preview": "1. Hypovolemic shock with circulation collpase related to active massive UGI ble"
+  },
+  "demo-000041": {
+    "assistant": "Z51.11,C15.5,I82.402",
+    "dis_preview": "1. Squamous cell carcinoma of esophagus， low third， s/p thoracoscopic subtotales"
+  },
+  "demo-000042": {
+    "assistant": "J10.08,J13,J14,J21.0,R06.00",
+    "dis_preview": "1. Influenza B infection with secondary bacterial infection 2. Bacterial Pneumon"
+  },
+  "demo-000043": {
+    "assistant": "N39.0,C79.11,C78.00,C78.1,K76.89,N32.1,A41.9,R65.21,C20,E87.2,C77.2,C79.51,C78.7",
+    "dis_preview": "1. Urinary tract infection， suspected colon-bladder fistula related， complicated"
+  },
+  "demo-000044": {
+    "assistant": "J35.3,H65.93",
+    "dis_preview": "1. Adenoid hypertrphy and bilateral tonsil hypertorphy status post adenoidectomy"
+  },
+  "demo-000045": {
+    "assistant": "Z51.11,C06.9,E11.9,K70.9,K21.0,K26.9,D49.0",
+    "dis_preview": "1. Right buccal cancer， ycT4bN0M0， status post induction chemotherapy with T(50B"
+  },
+  "demo-000046": {
+    "assistant": "J10.08,J13,E86.0",
+    "dis_preview": "1. Pneumonia， Streptococcus pneumoniae infection 2. Influenza type A viurs infec"
+  },
+  "demo-000047": {
+    "assistant": "Z51.11,C11.9,C77.0",
+    "dis_preview": "[Active]Recurrent Nasopharynegal carcinoma with neck metastasis post operation s"
+  },
+  "demo-000048": {
+    "assistant": "J14",
+    "dis_preview": "acute bronchopneumonia with Haemophilus influenzae infection"
+  },
+  "demo-000049": {
+    "assistant": "J44.1,G20,E11.9,I10,F06.8,K59.00,F05",
+    "dis_preview": "1. COPD acute exacerbation with secondary infection 2. Parkisonism 3. Type 2 DM "
+  },
+  "demo-000050": {
+    "assistant": "I71.4,I72.3,I10",
+    "dis_preview": "1. AAA， infra-renal type about 5.6cm s/p Endovascular aneurysm repair on 2018-01"
+  }
+}
