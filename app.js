@@ -1,4 +1,4 @@
-// app.js
+// app.js（完整覆蓋）
 
 window.addEventListener("load", () => {
   const statusEl = document.getElementById("app-status");
@@ -9,7 +9,7 @@ window.addEventListener("load", () => {
 
   let answersMap = {};
   let smartClient = null;
-  let demoCases = [];     // [{ index, patientId, observation, disPreview }]
+  let demoCases = [];     // [{ patientId, observation, disPreview }]
   let currentPatientId = null;
 
   // 1. 同時載入 demo_icd_answers.json + 等待 SMART ready
@@ -28,6 +28,9 @@ window.addEventListener("load", () => {
     .then(([answers, client]) => {
       answersMap = answers || {};
       smartClient = client;
+
+      console.log("answersMap keys:", Object.keys(answersMap));
+      console.log("SMART client ready:", client);
 
       statusEl.textContent = "SMART 授權成功，正在從 FHIR 載入 Demo 範例…";
 
@@ -61,6 +64,8 @@ window.addEventListener("load", () => {
             disPreview,
           });
         });
+
+        console.log("demoCases loaded:", demoCases.length);
 
         if (demoCases.length === 0) {
           statusEl.textContent =
@@ -208,3 +213,5 @@ window.addEventListener("load", () => {
       .replace(/'/g, "&#39;");
   }
 });
+
+
