@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <title>SMART Demo Launch</title>
+  <script src="https://cdn.jsdelivr.net/npm/fhirclient@2.3.10/build/fhir-client.min.js"></script>
+</head>
+<body>
+<p>正在導向 SMART 授權頁面…</p>
+
+<script>
+  // TODO：換成衛福部 SMART 沙盒給你的 clientId
+  const CLIENT_ID = "在這裡填入你的 clientId";
+
+  // TODO：換成你 GitHub Pages 上的 index.html 完整網址
+  // 例：const REDIRECT_URI = "https://ming-hsuan.github.io/thas-smart-demo/index.html";
+  const REDIRECT_URI = "https://你的帳號.github.io/thas-smart-demo/index.html";
+
+  FHIR.oauth2.authorize({
+    clientId: CLIENT_ID,
+    redirectUri: REDIRECT_URI,
+    scope: "launch patient/Patient.read patient/Observation.read openid fhirUser",
+  });
+</script>
+</body>
+</html>
